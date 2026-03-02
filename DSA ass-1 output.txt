@@ -11,4 +11,5 @@ n=20: Result=6765 | Total Recursive Calls=21891
 Searching for 7 in [1, 3, 5, 7, 9, 11, 13]
 Result Index: 3
 Mid-indices pushed to Stack (Path of search): 3
-PS C:\Users\LENOVO\OneDrive\CLG Documents\Data Structure\AERT_Assignment_2501630018_TANISHQ KUMAR>
+
+PS C:\Users\LENOVO\OneDrive\CLG Documents\Data Structure\AERT_Assignment_>
