@@ -68,10 +68,4 @@ def run_tests():
     print(f"Searching for {key_to_find} in {test_arr}")
     print(f"Result Index: {res}")
     
-    print("Mid-indices pushed to Stack (Path of search):", end=" ")
-    while not search_stack.is_empty():
-        print(search_stack.pop(), end=" ")
-    print()
-
-if __name__ == "__main__":
-    run_tests()
+    
