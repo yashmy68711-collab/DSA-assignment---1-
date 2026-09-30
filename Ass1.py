@@ -67,5 +67,12 @@ def run_tests():
     res = binary_search(test_arr, key_to_find, 0, len(test_arr)-1, search_stack)
     print(f"Searching for {key_to_find} in {test_arr}")
     print(f"Result Index: {res}")
-    
+
+    print("Mid-indices pushed to Stack (Path of search):", end=" ")
+    while not search_stack.is_empty():
+    print(search_stack.pop(), end=" ")
+    print()
+
+if __name__ == "__main__":
+    run_tests()
     
